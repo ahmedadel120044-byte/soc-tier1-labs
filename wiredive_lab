@@ -78,3 +78,7 @@
 1. **التحقيق المتكامل**: التحليل الجنائي للشبكات يعتمد على تجميع الأدلة من عدة بروتوكولات (`DHCP` للتعرف على الجهاز، `DNS` للتعرف على الوجهة، `TLS` لفك التشفير والمحتوى).
 2. **فك التشفير المتقدم**: استخدام ملفات `Pre-Master Secret` يمثل خطوة مفصلية لشفافية التحليل في شبكات `HTTPS`.
 3. **تنسيق التقرير**: وضع مصطلحات Wireshark والأوامر بين أقواس كود (Backticks) يحافظ على اتجاه النصوص العربية والإنجليزية ويمنع أي مشاكل في العرض على GitHub.
+
+
+> 🔗 **Lab Link**: [CyberDefenders — WireDive](https://cyberdefenders.org/blueteam-ctf-challenges/wiredive/)  
+> 🏆 **Proof of Completion**: [My CyberDefenders Profile / Write-up Verification](https://cyberdefenders.org/blueteam-ctf-challenges/achievements/ahmed.adel120044/wiredive/)
