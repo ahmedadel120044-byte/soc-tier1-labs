@@ -6,7 +6,7 @@
 
 | Lab Name | Category | Platform | Difficulty | Write-up Link | Key Skills / Tools |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **WireDive** | Network Forensics | CyberDefenders | Easy/Medium | [View Writeup](./CyberDefenders/WireDive) | Wireshark, TLS Decryption, SMB, DNS |
-| **Hammered** | Log Analysis | CyberDefenders | Easy | [View Writeup](./CyberDefenders/Hammered) | Linux Auth Logs, SSH, Brute Force |
+| **WireDive** | Network Forensics | CyberDefenders | Medium | [View Writeup](./CyberDefenders/WireDive) | Wireshark, TLS Decryption, SMB, DNS |
+| **Hammered** | Log Analysis | CyberDefenders | Medium | [View Writeup](./CyberDefenders/Hammered) | Linux Auth Logs, SSH, Brute Force |
 
 ---
