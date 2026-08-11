@@ -8,5 +8,6 @@
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **WireDive** | Network Forensics | CyberDefenders | Medium | [View Writeup](./CyberDefenders/WireDive) | Wireshark, TLS Decryption, SMB, DNS |
 | **Hammered** | Log Analysis | CyberDefenders | Medium | [View Writeup](./CyberDefenders/Hammered) | Linux Auth Logs, SSH, Brute Force |
+| **Hacked** | Log Analysis | CyberDefenders | Medium | [View Writeup](./CyberDefenders/Hacked) | FTK Imager, Ext4 Forensics, Deleted File Recovery, Linux Logs, Bash History
 
 ---
