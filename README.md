@@ -9,7 +9,7 @@
 | **WireDive** | Network Forensics | CyberDefenders | Medium | [View Writeup](./CyberDefenders/WireDive) | Wireshark, TLS Decryption, SMB, DNS |
 | **Hammered** | Log Analysis | CyberDefenders | Medium | [View Writeup](./CyberDefenders/Hammered) | Linux Auth Logs, SSH, Brute Force |
 | **Hacked** | Log Analysis | CyberDefenders | Medium | [View Writeup](./CyberDefenders/Hacked) | FTK Imager, Ext4 Forensics, Deleted File Recovery, Linux Logs, Bash History
-| **Splunk: Exploring SPL** | SIEM & Queries | TryHackMe | Medium | [View Writeup](./tryhackme/Splunk: Exploring SPL) | Splunk Enterprise, SPL Queries, Log Correlation (join), GeoIP Enrichment (iplocation), Sysmon & Windows Logs, Anomaly Detection
+| **Splunk: Exploring SPL** | SIEM & Queries | TryHackMe | Medium | [View Writeup](./tryhackme/Splunk:_Exploring_SPL) | Splunk Enterprise, SPL Queries, Log Correlation (join), GeoIP Enrichment (iplocation), Sysmon & Windows Logs, Anomaly Detection
 
 
 ---
