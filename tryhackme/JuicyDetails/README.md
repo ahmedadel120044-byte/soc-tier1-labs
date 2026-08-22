@@ -1,6 +1,6 @@
 # 🕵️‍♂️ BTLO Writeup: Juicy Details
 
-![Platform](https://img.shields.io/badge/Platform-BTLO-blue?style=flat-square)
+![Platform](https://img.shields.io/badge/Platform-TryHackMe-red?style=flat-square)
 ![Difficulty](https://img.shields.io/badge/Difficulty-Easy-green?style=flat-square)
 ![Category](https://img.shields.io/badge/Category-Web%20Log%20Forensics-orange?style=flat-square)
 ![Author](https://img.shields.io/badge/Author-Ahmed%20Adel-purple?style=flat-square)
