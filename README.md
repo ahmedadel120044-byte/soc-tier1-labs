@@ -14,5 +14,5 @@
 | **Investigating Windows** | Windows DFIR | TryHackMe | Easy | [View Writeup](./tryhackme/investigating_windows) | Windows Forensics, PowerShell & Event Viewer, Sysmon Log Correlation, Persistence Detection, Timeline Analysis, IoC Extraction
 | **Splunk BOTSv1** | Threat Hunting & DFIR | Boss of the SOC | Hard | [View Writeup](./BOTSv1) | Splunk Enterprise, SPL Queries, Sysmon Analysis, Web Shell Detection, MITRE ATT&CK, Malware Execution |
 | **Juicy Details** | Log Analysis | TryHackMe | Easy | [View Writeup](./tryhackme/JuicyDetails) | Web Log Forensics, SQLi Analysis, Brute-Force Investigation, Incident Response, Linux CLI (`awk`/`grep`) |
-| **Detecting Web Attacks** | Log Analysis | TryHackme | Easy | [View Writeup](./tryhackme/DetectingWebAttacks) | Web Log Analysis, Brute Force Detection, User-Agent Parsing, Recon Analysis |
+| **Detecting Web Attacks** | Log Analysis | TryHackme | Easy | [View Writeup](./tryhackme/DetectingWebAttacks) | Web Attack Classification , User-Agent Fingerprinting , Authentication Log Analysis , Payload Analysis & Decoding , WAF Rule Creation |
 ---
