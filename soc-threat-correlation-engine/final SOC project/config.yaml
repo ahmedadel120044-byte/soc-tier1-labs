@@ -1,0 +1,42 @@
+# ==========================================
+# SOC Analyzer Configuration File
+# ==========================================
+
+# 1. Detection Thresholds
+thresholds:
+  failed_logins: 5
+  port_scan_packets: 100
+
+# 2. Threat Intelligence / IOC Enrichment
+# Note: Set your ABUSEIPDB_API_KEY environment variable instead of hardcoding here.
+ioc_enrichment:
+  enabled: true
+
+# 3. Base MITRE ATT&CK Framework Mapping
+mitre_mapping:
+  event_ids:
+    "4625":
+      technique_id: "T1110"
+      technique_name: "Brute Force"
+      severity: "MEDIUM"
+    "SSH_FAILED_LOGIN":
+      technique_id: "T1110"
+      technique_name: "Brute Force"
+      severity: "MEDIUM"
+    "4624":
+      technique_id: "T1078"
+      technique_name: "Valid Accounts"
+      severity: "INFO"
+    "4672":
+      technique_id: "T1078.002"
+      technique_name: "Domain Accounts"
+      severity: "LOW"
+  network_events:
+    "PORT_SCAN":
+      technique_id: "T1046"
+      technique_name: "Network Service Discovery"
+      severity: "HIGH"
+    "DNS_QUERY":
+      technique_id: "T1071"
+      technique_name: "Application Layer Protocol"
+      severity: "LOW"
