@@ -1,0 +1,6 @@
+pandas
+pyyaml
+requests
+scapy
+python-evtx
+python-dotenv
