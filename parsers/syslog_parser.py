@@ -1,6 +1,8 @@
 import logging
 import re
-
+import logging
+import re
+from datetime import datetime
 logger = logging.getLogger(__name__)
 
 
@@ -48,6 +50,7 @@ def parse_syslog(log_path: str) -> list:
           ip_address = accepted_match.group("ip")
 
         if event_id:
+          timestamp_val = f"{datetime.now().year} {timestamp_val}"
           logs_data.append({
               "EventID": event_id,
               "Timestamp": timestamp_val,
