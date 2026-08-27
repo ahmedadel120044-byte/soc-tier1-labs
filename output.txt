@@ -1,0 +1,203 @@
+PS C:\Users\HP\Desktop\final SOC project> python main.py --pcap dns.pcapng
+C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\scapy\layers\tls\crypto\groups.py:25: CryptographyDeprecationWarning: Diffie-Hellman over finite fields (FFDH) is deprecated and support will be removed in a future release. Use a more modern key exchange algorithm.
+  from cryptography.hazmat.primitives.asymmetric.dh import DHParameterNumbers
+2026-08-27 20:53:24,461 [INFO] Parsing PCAP file: dns.pcapng
+2026-08-27 20:53:24,476 [INFO] Cleaning logs and applying Unified Schema...
+2026-08-27 20:53:24,497 [INFO] Running Threat Engine & MITRE ATT&CK Mapping...
+2026-08-27 20:53:24,507 [INFO] Fetching Threat Intel from AbuseIPDB...
+2026-08-27 20:53:25,342 [INFO] Generating output files...
+
+=======================================================
+ 🛡️   SOC THREAT ANALYSIS SUMMARY   🛡️
+=======================================================
+[*] Total Suspicious IPs Flagged: 1
+-------------------------------------------------------
+ 🚨 IP Address   : 192.168.2.2
+ 📊 Severity     : MEDIUM
+ 🔢 Total Events : 9
+ 🎯 MITRE ATT&CK: T1071 - Application Layer Protocol
+ 🌐 Threat Intel : Score 0% | Country: None | None
+ ⏱️ Timeline     : 2020-04-16T20:08:20.019645 -> 2020-04-16T20:08:48.983567
+-------------------------------------------------------
+[+] Full clean details saved to: output\details.csv
+[+] Threat summary saved to  : output\summary.json
+=======================================================
+
+PS C:\Users\HP\Desktop\final SOC project> python main.py --pcap https.pcapng 
+C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\scapy\layers\tls\crypto\groups.py:25: CryptographyDeprecationWarning: Diffie-Hellman over finite fields (FFDH) is deprecated and support will be removed in a future release. Use a more modern key exchange algorithm.
+  from cryptography.hazmat.primitives.asymmetric.dh import DHParameterNumbers
+2026-08-27 20:56:08,132 [INFO] Parsing PCAP file: https.pcapng
+2026-08-27 20:56:09,891 [INFO] Cleaning logs and applying Unified Schema...
+2026-08-27 20:56:09,910 [INFO] Running Threat Engine & MITRE ATT&CK Mapping...
+2026-08-27 20:56:09,943 [INFO] Fetching Threat Intel from AbuseIPDB...
+2026-08-27 20:56:23,625 [INFO] Generating output files...
+
+=======================================================
+ 🛡️   SOC THREAT ANALYSIS SUMMARY   🛡️
+=======================================================
+[*] Total Suspicious IPs Flagged: 23
+-------------------------------------------------------
+ 🚨 IP Address   : 13.225.221.54
+ 📊 Severity     : CRITICAL
+ 🔢 Total Events : 7381
+ 🎯 MITRE ATT&CK: T1000 - General Anomaly (TCP_TRAFFIC)
+ 🌐 Threat Intel : Score 0% | Country: US | Amazon.com, Inc.
+ ⏱️ Timeline     : 2020-04-17T20:33:34.502639 -> 2020-04-17T20:34:16.777053
+-------------------------------------------------------
+ 🚨 IP Address   : 192.168.2.244
+ 📊 Severity     : CRITICAL
+ 🔢 Total Events : 3657
+ 🎯 MITRE ATT&CK: T1000 - General Anomaly (TCP_TRAFFIC), T1071 - Application Layer Protocol
+ 🌐 Threat Intel : Score 0% | Country: None | None
+ ⏱️ Timeline     : 2020-04-17T20:32:12.745470 -> 2020-04-17T20:34:18.265305
+-------------------------------------------------------
+ 🚨 IP Address   : 192.168.2.1
+ 📊 Severity     : CRITICAL
+ 🔢 Total Events : 236
+ 🎯 MITRE ATT&CK: T1000 - General Anomaly (TCP_TRAFFIC), T1071 - Application Layer Protocol
+ 🌐 Threat Intel : Score 0% | Country: None | None
+ ⏱️ Timeline     : 2020-04-17T20:32:12.871379 -> 2020-04-17T20:34:16.767380
+-------------------------------------------------------
+ 🚨 IP Address   : 13.225.221.110
+ 📊 Severity     : CRITICAL
+ 🔢 Total Events : 220
+ 🎯 MITRE ATT&CK: T1000 - General Anomaly (TCP_TRAFFIC)
+ 🌐 Threat Intel : Score 0% | Country: US | Amazon.com, Inc.
+ ⏱️ Timeline     : 2020-04-17T20:33:34.000109 -> 2020-04-17T20:34:16.774668
+-------------------------------------------------------
+ 🚨 IP Address   : 34.212.242.166
+ 📊 Severity     : CRITICAL
+ 🔢 Total Events : 121
+ 🎯 MITRE ATT&CK: T1000 - General Anomaly (TCP_TRAFFIC)
+ 🌐 Threat Intel : Score 0% | Country: US | Amazon Technologies Inc.
+ ⏱️ Timeline     : 2020-04-17T20:32:13.659952 -> 2020-04-17T20:34:16.838558
+-------------------------------------------------------
+ 🚨 IP Address   : 13.225.221.18
+ 📊 Severity     : CRITICAL
+ 🔢 Total Events : 85
+ 🎯 MITRE ATT&CK: T1000 - General Anomaly (TCP_TRAFFIC)
+ 🌐 Threat Intel : Score 0% | Country: US | Amazon.com, Inc.
+ ⏱️ Timeline     : 2020-04-17T20:33:56.482660 -> 2020-04-17T20:34:16.775628
+-------------------------------------------------------
+ 🚨 IP Address   : 3.228.110.234
+ 📊 Severity     : CRITICAL
+ 🔢 Total Events : 75
+ 🎯 MITRE ATT&CK: T1000 - General Anomaly (TCP_TRAFFIC)
+ 🌐 Threat Intel : Score 0% | Country: US | Amazon Data Services Northern Virginia
+ ⏱️ Timeline     : 2020-04-17T20:33:58.378829 -> 2020-04-17T20:34:16.785376
+-------------------------------------------------------
+ 🚨 IP Address   : 23.33.57.61
+ 📊 Severity     : CRITICAL
+ 🔢 Total Events : 70
+ 🎯 MITRE ATT&CK: T1000 - General Anomaly (TCP_TRAFFIC)
+ 🌐 Threat Intel : Score 0% | Country: US | Akamai Technologies, Inc.
+ ⏱️ Timeline     : 2020-04-17T20:32:14.587738 -> 2020-04-17T20:34:03.909163
+-------------------------------------------------------
+ 🚨 IP Address   : 172.217.9.228
+ 📊 Severity     : CRITICAL
+ 🔢 Total Events : 68
+ 🎯 MITRE ATT&CK: T1000 - General Anomaly (TCP_TRAFFIC)
+ 🌐 Threat Intel : Score 0% | Country: US | Google LLC
+ ⏱️ Timeline     : 2020-04-17T20:32:15.571797 -> 2020-04-17T20:34:16.779324
+-------------------------------------------------------
+ 🚨 IP Address   : 13.225.221.60
+ 📊 Severity     : CRITICAL
+ 🔢 Total Events : 52
+ 🎯 MITRE ATT&CK: T1000 - General Anomaly (TCP_TRAFFIC)
+ 🌐 Threat Intel : Score 0% | Country: US | Amazon.com, Inc.
+ ⏱️ Timeline     : 2020-04-17T20:33:56.431525 -> 2020-04-17T20:34:16.773953
+-------------------------------------------------------
+ 🚨 IP Address   : 54.70.191.0
+ 📊 Severity     : CRITICAL
+ 🔢 Total Events : 29
+ 🎯 MITRE ATT&CK: T1000 - General Anomaly (TCP_TRAFFIC)
+ 🌐 Threat Intel : Score 0% | Country: US | Amazon Technologies Inc.
+ ⏱️ Timeline     : 2020-04-17T20:34:17.135831 -> 2020-04-17T20:34:18.265084
+-------------------------------------------------------
+ 🚨 IP Address   : 13.225.221.9
+ 📊 Severity     : CRITICAL
+ 🔢 Total Events : 24
+ 🎯 MITRE ATT&CK: T1000 - General Anomaly (TCP_TRAFFIC)
+ 🌐 Threat Intel : Score 0% | Country: US | Amazon.com, Inc.
+ ⏱️ Timeline     : 2020-04-17T20:32:13.274430 -> 2020-04-17T20:32:24.013102
+-------------------------------------------------------
+ 🚨 IP Address   : 34.194.201.2
+ 📊 Severity     : CRITICAL
+ 🔢 Total Events : 24
+ 🎯 MITRE ATT&CK: T1000 - General Anomaly (TCP_TRAFFIC)
+ 🌐 Threat Intel : Score 0% | Country: US | Amazon Technologies Inc.
+ ⏱️ Timeline     : 2020-04-17T20:33:55.637845 -> 2020-04-17T20:34:03.715521
+-------------------------------------------------------
+ 🚨 IP Address   : 104.98.115.162
+ 📊 Severity     : CRITICAL
+ 🔢 Total Events : 21
+ 🎯 MITRE ATT&CK: T1000 - General Anomaly (TCP_TRAFFIC)
+ 🌐 Threat Intel : Score 0% | Country: US | Akamai Technologies, Inc.
+ ⏱️ Timeline     : 2020-04-17T20:32:12.892016 -> 2020-04-17T20:33:29.703782
+-------------------------------------------------------
+ 🚨 IP Address   : 72.21.91.29
+ 📊 Severity     : HIGH
+ 🔢 Total Events : 19
+ 🎯 MITRE ATT&CK: T1000 - General Anomaly (TCP_TRAFFIC)
+ 🌐 Threat Intel : Score 0% | Country: US | Edgecast Inc.
+ ⏱️ Timeline     : 2020-04-17T20:32:13.762605 -> 2020-04-17T20:32:24.014536
+-------------------------------------------------------
+ 🚨 IP Address   : 13.225.221.83
+ 📊 Severity     : HIGH
+ 🔢 Total Events : 19
+ 🎯 MITRE ATT&CK: T1000 - General Anomaly (TCP_TRAFFIC)
+ 🌐 Threat Intel : Score 0% | Country: US | Amazon.com, Inc.
+ ⏱️ Timeline     : 2020-04-17T20:33:56.497633 -> 2020-04-17T20:34:16.774139
+-------------------------------------------------------
+ 🚨 IP Address   : 13.225.221.116
+ 📊 Severity     : HIGH
+ 🔢 Total Events : 15
+ 🎯 MITRE ATT&CK: T1000 - General Anomaly (TCP_TRAFFIC)
+ 🌐 Threat Intel : Score 0% | Country: US | Amazon.com, Inc.
+ ⏱️ Timeline     : 2020-04-17T20:32:13.714585 -> 2020-04-17T20:32:24.015255
+-------------------------------------------------------
+ 🚨 IP Address   : 13.225.221.64
+ 📊 Severity     : HIGH
+ 🔢 Total Events : 14
+ 🎯 MITRE ATT&CK: T1000 - General Anomaly (TCP_TRAFFIC)
+ 🌐 Threat Intel : Score 0% | Country: US | Amazon.com, Inc.
+ ⏱️ Timeline     : 2020-04-17T20:32:15.709951 -> 2020-04-17T20:32:24.015160
+-------------------------------------------------------
+ 🚨 IP Address   : 13.225.221.35
+ 📊 Severity     : HIGH
+ 🔢 Total Events : 10
+ 🎯 MITRE ATT&CK: T1000 - General Anomaly (TCP_TRAFFIC)
+ 🌐 Threat Intel : Score 0% | Country: US | Amazon.com, Inc.
+ ⏱️ Timeline     : 2020-04-17T20:33:52.020154 -> 2020-04-17T20:33:52.066839
+-------------------------------------------------------
+ 🚨 IP Address   : 54.149.145.192
+ 📊 Severity     : MEDIUM
+ 🔢 Total Events : 9
+ 🎯 MITRE ATT&CK: T1000 - General Anomaly (TCP_TRAFFIC)
+ 🌐 Threat Intel : Score 0% | Country: US | Amazon Technologies Inc.
+ ⏱️ Timeline     : 2020-04-17T20:32:13.889043 -> 2020-04-17T20:34:16.769472
+-------------------------------------------------------
+ 🚨 IP Address   : 192.168.2.20
+ 📊 Severity     : MEDIUM
+ 🔢 Total Events : 8
+ 🎯 MITRE ATT&CK: T1000 - General Anomaly (TCP_TRAFFIC), T1000 - General Anomaly (UDP_TRAFFIC)
+ 🌐 Threat Intel : Score 0% | Country: None | None
+ ⏱️ Timeline     : 2020-04-17T20:32:24.003084 -> 2020-04-17T20:32:48.619519
+-------------------------------------------------------
+ 🚨 IP Address   : 13.225.221.112
+ 📊 Severity     : MEDIUM
+ 🔢 Total Events : 7
+ 🎯 MITRE ATT&CK: T1000 - General Anomaly (TCP_TRAFFIC)
+ 🌐 Threat Intel : Score 0% | Country: US | Amazon.com, Inc.
+ ⏱️ Timeline     : 2020-04-17T20:33:23.649824 -> 2020-04-17T20:33:28.692863
+-------------------------------------------------------
+ 🚨 IP Address   : 35.224.99.156
+ 📊 Severity     : MEDIUM
+ 🔢 Total Events : 5
+ 🎯 MITRE ATT&CK: T1000 - General Anomaly (TCP_TRAFFIC)
+ 🌐 Threat Intel : Score 0% | Country: US | Google LLC
+ ⏱️ Timeline     : 2020-04-17T20:32:27.907326 -> 2020-04-17T20:32:28.004441
+-------------------------------------------------------
+[+] Full clean details saved to: output\details.csv
+[+] Threat summary saved to  : output\summary.json
+=======================================================
