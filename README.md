@@ -1,4 +1,4 @@
-# 🛡️ Cybersecurity & DFIR Labs Portfolio
+🛡️ Cybersecurity & DFIR Labs Portfolio
 
 ![Labs](https://img.shields.io/badge/Labs-9%20Completed-1f3864)
 ![Focus](https://img.shields.io/badge/Focus-Blue%20Team%20%2F%20SOC-blue)
@@ -11,15 +11,15 @@
 
 ## 📁 Repository Structure
 
-```
 soc-tier1-labs/
+├── APPSEC Protocol Builder/    # Custom secure application protocol (Mutual Auth, PFS, AES-GCM)
 ├── BOTSv1/                    # Splunk Boss of the SOC — threat hunting & DFIR
 ├── CyberDefenders/            # Network forensics & log analysis labs
+├── soc-threat-correlation-engine/ # Python-based SIEM log correlation & threat intelligence engine
 ├── tryhackme/                 # SIEM, Windows DFIR, and log analysis labs
-├── Custom_Tools/               # Self-built Python tools (not platform labs)
+├── Custom_Tools/              # Self-built Python tools & utilities
 │   └── log-analysis-toolkit/
 └── README.md
-```
 
 ---
 
@@ -39,23 +39,27 @@ soc-tier1-labs/
 
 ---
 
-## 🧰 Custom Tools & Scripts
+## 🧰 Custom Projects & Tools
 
-بالإضافة للابات المحلولة من المنصات، الـ Repo فيه أدوات Python بنيتها من الصفر لحل مشاكل تحليل حقيقية:
+‎بالإضافة للابات المحلولة من المنصات، الـ Repo بيحتوي على مشاريع وأدوات أمنية متكاملة بنيتها بنفسي:
 
-| Project | Description | Link |
-| :--- | :--- | :--- |
-| **Log Analysis Toolkit** | Brute-force detection, CLI-based SOC log investigation, and DNS PCAP parsing — each built, tested, and debugged independently. | [View Toolkit](./Custom_Tools/log-analysis-toolkit) |
+| Project | Category | Description | Link |
+| :--- | :--- | :--- | :--- |
+| **APPSEC Protocol Builder** | Secure Protocols / Cryptography | Custom application-layer protocol with Mutual Auth (HMAC-PSK), Ephemeral ECDH for PFS, AES-GCM encryption, and Symmetrical Rekeying. | [View Project](./APPSEC%20Protocol%20Builder) |
+| **SOC Threat Correlation Engine** | Detection Engineering / SIEM | Python correlation engine normalizing EVTX, Syslog, and PCAP data into a unified schema with automated threat scoring & live IoC enrichment. | [View Engine](./soc-threat-correlation-engine) |
+| **Log Analysis Toolkit** | Security Automation | Brute-force detection, CLI-based SOC log investigation, and DNS PCAP parsing. | [View Toolkit](./Custom_Tools/log-analysis-toolkit) |
 
 ---
 
 ## 🎯 Skills Demonstrated Across This Portfolio
 
-`Network Forensics` `Log Analysis` `SIEM (Splunk)` `Windows DFIR` `Threat Hunting` `MITRE ATT&CK Mapping` `Wireshark` `Python Scripting` `Incident Response`
+`Network Forensics` `Log Analysis` `SIEM (Splunk)` `Windows DFIR` `Threat Hunting` `MITRE ATT&CK Mapping` `Wireshark` `Python Scripting` `Applied Cryptography` `Detection Engineering` `Incident Response`
 
 ---
 
 ## 📫 Connect
 
-**Ahmed Adel** — Cybersecurity Student | Aspiring SOC Analyst
+**Ahmed Adel** — Cybersecurity Student | Aspiring SOC Analyst  
 [LinkedIn](https://www.linkedin.com/in/ahmed-adel-cyber/)
+
+
