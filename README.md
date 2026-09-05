@@ -1,6 +1,6 @@
 +/🛡️ Cybersecurity & DFIR Labs Portfolio
 
-![Labs](https://img.shields.io/badge/Labs-9%20Completed-1f3864)
+![Labs](https://img.shields.io/badge/Labs-10%20Completed-1f3864)
 ![Focus](https://img.shields.io/badge/Focus-Blue%20Team%20%2F%20SOC-blue)
 ![Status](https://img.shields.io/badge/Status-Actively%20Updating-brightgreen)
 ![MITRE ATT&CK](https://img.shields.io/badge/Mapped%20To-MITRE%20ATT%26CK-red)
