@@ -1,6 +1,6 @@
 # 🛡️ Cybersecurity & DFIR Labs Portfolio
 
-![Labs](https://img.shields.io/badge/Labs-9%20Completed-1f3864)
+![Labs](https://img.shields.io/badge/Labs-10%20Completed-1f3864)
 ![Focus](https://img.shields.io/badge/Focus-Blue%20Team%20%2F%20SOC-blue)
 ![Status](https://img.shields.io/badge/Status-Actively%20Updating-brightgreen)
 ![MITRE ATT&CK](https://img.shields.io/badge/Mapped%20To-MITRE%20ATT%26CK-red)
@@ -38,6 +38,7 @@ soc-tier1-labs/
 | **Splunk BOTSv1** | Threat Hunting & DFIR | Boss of the SOC | Hard | [View Writeup](./BOTSv1) | Splunk Enterprise, SPL Queries, Sysmon Analysis, Web Shell Detection, MITRE ATT&CK, Malware Execution |
 | **Juicy Details** | Log Analysis | TryHackMe | Easy | [View Writeup](./tryhackme/JuicyDetails) | Web Log Forensics, SQLi Analysis, Brute-Force Investigation, Incident Response, Linux CLI (`awk`/`grep`) |
 | **Detecting Web Attacks** | Log Analysis | TryHackMe | Easy | [View Writeup](./tryhackme/DetectingWebAttacks) | Web Attack Classification, User-Agent Fingerprinting, Authentication Log Analysis, Payload Analysis & Decoding, WAF Rule Creation |
+| **Ulysses** | Linux & Memory Forensics | CyberDefenders | Medium | [View Writeup](./CyberDefenders/Ulysses) | Volatility, Exim4 Exploit (CVE-2010-4344), Linux Logs, Rootkit Analysis, Network Exfiltration |
 
 ---
 
