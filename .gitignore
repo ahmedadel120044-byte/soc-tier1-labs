@@ -1,0 +1,17 @@
+# Environment Variables (Secrets)
+.env
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE & Editors Settings
+.vscode/
+.idea/
+*.swp
+
+# Virtual Environment (if used)
+venv/
+env/
